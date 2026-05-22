@@ -18,5 +18,6 @@ void          list_push_back(list_t* list, list_node_t* node);
 list_node_t*  list_pop_front(list_t* list);
 list_node_t*  list_pop_back(list_t* list);
 void          list_remove(list_node_t* node);
+void          list_remove_from(list_t* list, list_node_t* node);
 size_t        list_size(const list_t* list);
 int           list_empty(const list_t* list);

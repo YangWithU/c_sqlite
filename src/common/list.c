@@ -27,6 +27,7 @@ list_node_t* list_pop_front(list_t* list) {
         return NULL;
     list_node_t* node = list->sentinel.next;
     list_remove(node);
+    list->size--;
     return node;
 }
 
@@ -35,6 +36,7 @@ list_node_t* list_pop_back(list_t* list) {
         return NULL;
     list_node_t* node = list->sentinel.prev;
     list_remove(node);
+    list->size--;
     return node;
 }
 
@@ -43,6 +45,11 @@ void list_remove(list_node_t* node) {
     node->next->prev = node->prev;
     node->prev = NULL;
     node->next = NULL;
+}
+
+void list_remove_from(list_t* list, list_node_t* node) {
+    list_remove(node);
+    list->size--;
 }
 
 size_t list_size(const list_t* list) {

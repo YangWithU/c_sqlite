@@ -21,6 +21,7 @@ void    hashmap_init(hashmap_t* map, size_t bucket_count,
                      int (*equal_fn)(const void*, const void*));
 void    hashmap_destroy(hashmap_t* map, void (*key_dtor)(void*), void (*val_dtor)(void*));
 int     hashmap_put(hashmap_t* map, void* key, void* value);
+void*   hashmap_put_old(hashmap_t* map, void* key, void* value);
 void*   hashmap_get(const hashmap_t* map, const void* key);
 int     hashmap_remove(hashmap_t* map, const void* key, void (*key_dtor)(void*), void (*val_dtor)(void*));
 size_t  hashmap_size(const hashmap_t* map);

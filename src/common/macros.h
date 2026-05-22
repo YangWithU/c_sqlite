@@ -5,6 +5,7 @@
 #define ARRAY_SIZE(arr)  (sizeof(arr) / sizeof((arr)[0]))
 
 #define UNUSED(x)       ((void)(x))
+#define UNUSED_FN       __attribute__((unused))
 
 #define CONTAINER_OF(ptr, type, member) \
     ((type*)((char*)(ptr) - offsetof(type, member)))

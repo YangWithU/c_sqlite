@@ -3,7 +3,7 @@ CFLAGS  = -std=c11 -Wall -Wextra -g -O2 -I. -Ithird_party/xtest
 LDFLAGS =
 
 # Source directories
-SRC_DIRS = src/common src/tools src/parser
+SRC_DIRS = src/common src/tools src/parser src/storage src/buffer src/index src/catalog
 SRCS     = $(foreach dir,$(SRC_DIRS),$(wildcard $(dir)/*.c))
 OBJS     = $(SRCS:.c=.o)
 

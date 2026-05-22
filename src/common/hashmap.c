@@ -56,6 +56,31 @@ int hashmap_put(hashmap_t* map, void* key, void* value) {
     return 0;
 }
 
+void* hashmap_put_old(hashmap_t* map, void* key, void* value) {
+    size_t idx = map->hash_fn(key) % map->bucket_count;
+
+    /* Check if key already exists — update value and return old */
+    hashmap_entry_t* cur = map->buckets[idx];
+    while (cur) {
+        if (map->equal_fn(cur->key, key)) {
+            void* old_value = cur->value;
+            cur->value = value;
+            return old_value;
+        }
+        cur = cur->next;
+    }
+
+    /* Insert new entry at head */
+    hashmap_entry_t* entry = db_malloc(sizeof(hashmap_entry_t));
+    if (!entry) return NULL;
+    entry->key = key;
+    entry->value = value;
+    entry->next = map->buckets[idx];
+    map->buckets[idx] = entry;
+    map->size++;
+    return NULL;
+}
+
 void* hashmap_get(const hashmap_t* map, const void* key) {
     size_t idx = map->hash_fn(key) % map->bucket_count;
     hashmap_entry_t* cur = map->buckets[idx];
