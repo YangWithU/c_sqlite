@@ -1,0 +1,137 @@
+[
+  {
+    "file": "xtest_runner.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "xtest_runner.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_assertions_array.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_assertions_array.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_assertions_basic.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_assertions_basic.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_assertions_float.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_assertions_float.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_assertions_str.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_assertions_str.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_bench.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_bench.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_fixtures.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_fixtures.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_network_package.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_network_package.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  },
+  {
+    "file": "tests/test_parallel.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-o",
+      "build/xtest_runner",
+      "tests/test_parallel.c"
+    ],
+    "directory": "/home/yang/xtest_c_testinglib",
+    "output": "build/xtest_runner"
+  }
+]

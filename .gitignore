@@ -1,0 +1,22 @@
+# Build artifacts
+*.o
+*.a
+xtest_runner
+*.gcda
+*.gcno
+coverage/
+coverage.info
+
+# Database files
+*.db
+*.wal
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
