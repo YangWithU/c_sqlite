@@ -682,17 +682,17 @@ static stmt_t* parse_create_table(parser_t* p) {
     expect(p, TK_LEFT_PAREN);
 
     int col_cap = 8;
-    s->create_table.columns = db_calloc((size_t)col_cap, sizeof(column_def_t));
+    s->create_table.columns = db_calloc((size_t)col_cap, sizeof(ast_column_def_t));
 
     while (1) {
         if (s->create_table.column_count >= col_cap) {
             col_cap *= 2;
-            s->create_table.columns = db_realloc(s->create_table.columns, sizeof(column_def_t) * (size_t)col_cap);
+            s->create_table.columns = db_realloc(s->create_table.columns, sizeof(ast_column_def_t) * (size_t)col_cap);
             memset(s->create_table.columns + s->create_table.column_count, 0,
-                   sizeof(column_def_t) * (size_t)(col_cap - s->create_table.column_count));
+                   sizeof(ast_column_def_t) * (size_t)(col_cap - s->create_table.column_count));
         }
 
-        column_def_t* col = &s->create_table.columns[s->create_table.column_count++];
+        ast_column_def_t* col = &s->create_table.columns[s->create_table.column_count++];
 
         /* Column name */
         if (PEEK_TYPE(p) != TK_IDENTIFIER) {

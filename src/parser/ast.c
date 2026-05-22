@@ -145,7 +145,7 @@ static void print_indent(int indent) {
     for (int i = 0; i < indent; i++) printf("  ");
 }
 
-static void print_value(const value_t* v) {
+static void print_value(const ast_value_t* v) {
     switch (v->type) {
     case VALUE_NULL:   printf("NULL"); break;
     case VALUE_BOOL:   printf("%s", v->bool_val ? "TRUE" : "FALSE"); break;
@@ -219,7 +219,7 @@ void ast_print_stmt(const stmt_t* stmt, int indent) {
         printf("CreateTable: %s (%d columns)\n",
                stmt->create_table.table_name, stmt->create_table.column_count);
         for (int i = 0; i < stmt->create_table.column_count; i++) {
-            column_def_t* col = &stmt->create_table.columns[i];
+            ast_column_def_t* col = &stmt->create_table.columns[i];
             print_indent(indent + 1);
             printf("Column: %s type=%d", col->name, col->data_type);
             if (col->is_primary_key) printf(" PRIMARY_KEY");

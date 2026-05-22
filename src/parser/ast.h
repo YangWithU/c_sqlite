@@ -32,7 +32,7 @@ typedef struct {
         double  float_val;
         char    str_val[256];
     };
-} value_t;
+} ast_value_t;
 
 /* ---- Column definition (for CREATE TABLE) ---- */
 typedef enum {
@@ -47,8 +47,8 @@ typedef struct {
     int            not_null;
     int            is_unique;
     int            has_default;
-    value_t        default_value;
-} column_def_t;
+    ast_value_t   default_value;
+} ast_column_def_t;
 
 /* ---- Expression ---- */
 typedef struct expr expr_t;
@@ -56,7 +56,7 @@ typedef struct expr expr_t;
 struct expr {
     expr_type_t type;
     union {
-        struct { value_t value; } literal;
+        struct { ast_value_t value; } literal;
         struct { char table[64]; char column[64]; } column_ref;
         struct { expr_t* left; token_type_t op; expr_t* right; } binary;
         struct { token_type_t op; expr_t* operand; } unary;
@@ -102,7 +102,7 @@ struct stmt {
     union {
         struct {
             char          table_name[MAX_TABLE_NAME];
-            column_def_t* columns;
+            ast_column_def_t* columns;
             int           column_count;
             int           if_not_exists;
         } create_table;

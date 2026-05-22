@@ -1,0 +1,1009 @@
+[
+  {
+    "file": "src/common/error.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/common/error.c",
+      "-o",
+      "src/common/error.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/common/error.o"
+  },
+  {
+    "file": "src/common/file_io.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/common/file_io.c",
+      "-o",
+      "src/common/file_io.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/common/file_io.o"
+  },
+  {
+    "file": "src/common/hashmap.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/common/hashmap.c",
+      "-o",
+      "src/common/hashmap.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/common/hashmap.o"
+  },
+  {
+    "file": "src/common/list.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/common/list.c",
+      "-o",
+      "src/common/list.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/common/list.o"
+  },
+  {
+    "file": "src/common/logger.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/common/logger.c",
+      "-o",
+      "src/common/logger.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/common/logger.o"
+  },
+  {
+    "file": "src/common/mem.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/common/mem.c",
+      "-o",
+      "src/common/mem.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/common/mem.o"
+  },
+  {
+    "file": "src/common/vector.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/common/vector.c",
+      "-o",
+      "src/common/vector.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/common/vector.o"
+  },
+  {
+    "file": "src/tools/repl.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/tools/repl.c",
+      "-o",
+      "src/tools/repl.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/tools/repl.o"
+  },
+  {
+    "file": "src/tools/sql_runner.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/tools/sql_runner.c",
+      "-o",
+      "src/tools/sql_runner.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/tools/sql_runner.o"
+  },
+  {
+    "file": "src/parser/ast.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/parser/ast.c",
+      "-o",
+      "src/parser/ast.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/parser/ast.o"
+  },
+  {
+    "file": "src/parser/lexer.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/parser/lexer.c",
+      "-o",
+      "src/parser/lexer.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/parser/lexer.o"
+  },
+  {
+    "file": "src/parser/parser.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/parser/parser.c",
+      "-o",
+      "src/parser/parser.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/parser/parser.o"
+  },
+  {
+    "file": "src/parser/token.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/parser/token.c",
+      "-o",
+      "src/parser/token.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/parser/token.o"
+  },
+  {
+    "file": "src/storage/disk_manager.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/storage/disk_manager.c",
+      "-o",
+      "src/storage/disk_manager.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/storage/disk_manager.o"
+  },
+  {
+    "file": "src/storage/free_space_manager.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/storage/free_space_manager.c",
+      "-o",
+      "src/storage/free_space_manager.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/storage/free_space_manager.o"
+  },
+  {
+    "file": "src/storage/heap_file.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/storage/heap_file.c",
+      "-o",
+      "src/storage/heap_file.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/storage/heap_file.o"
+  },
+  {
+    "file": "src/storage/schema.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/storage/schema.c",
+      "-o",
+      "src/storage/schema.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/storage/schema.o"
+  },
+  {
+    "file": "src/storage/slotted_page.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/storage/slotted_page.c",
+      "-o",
+      "src/storage/slotted_page.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/storage/slotted_page.o"
+  },
+  {
+    "file": "src/storage/tuple.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/storage/tuple.c",
+      "-o",
+      "src/storage/tuple.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/storage/tuple.o"
+  },
+  {
+    "file": "src/storage/value.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/storage/value.c",
+      "-o",
+      "src/storage/value.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/storage/value.o"
+  },
+  {
+    "file": "src/buffer/buffer_pool_manager.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/buffer/buffer_pool_manager.c",
+      "-o",
+      "src/buffer/buffer_pool_manager.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/buffer/buffer_pool_manager.o"
+  },
+  {
+    "file": "src/buffer/lru_replacer.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/buffer/lru_replacer.c",
+      "-o",
+      "src/buffer/lru_replacer.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/buffer/lru_replacer.o"
+  },
+  {
+    "file": "src/buffer/page_guard.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/buffer/page_guard.c",
+      "-o",
+      "src/buffer/page_guard.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/buffer/page_guard.o"
+  },
+  {
+    "file": "src/index/b_plus_tree.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/index/b_plus_tree.c",
+      "-o",
+      "src/index/b_plus_tree.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/index/b_plus_tree.o"
+  },
+  {
+    "file": "src/index/b_plus_tree_node.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/index/b_plus_tree_node.c",
+      "-o",
+      "src/index/b_plus_tree_node.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/index/b_plus_tree_node.o"
+  },
+  {
+    "file": "src/index/index_iterator.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/index/index_iterator.c",
+      "-o",
+      "src/index/index_iterator.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/index/index_iterator.o"
+  },
+  {
+    "file": "src/catalog/catalog.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/catalog/catalog.c",
+      "-o",
+      "src/catalog/catalog.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/catalog/catalog.o"
+  },
+  {
+    "file": "src/catalog/id_generator.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/catalog/id_generator.c",
+      "-o",
+      "src/catalog/id_generator.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/catalog/id_generator.o"
+  },
+  {
+    "file": "src/planner/explain.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/planner/explain.c",
+      "-o",
+      "src/planner/explain.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/planner/explain.o"
+  },
+  {
+    "file": "src/planner/logical_plan.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/planner/logical_plan.c",
+      "-o",
+      "src/planner/logical_plan.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/planner/logical_plan.o"
+  },
+  {
+    "file": "src/planner/physical_plan.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/planner/physical_plan.c",
+      "-o",
+      "src/planner/physical_plan.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/planner/physical_plan.o"
+  },
+  {
+    "file": "src/planner/planner.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/planner/planner.c",
+      "-o",
+      "src/planner/planner.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/planner/planner.o"
+  },
+  {
+    "file": "src/planner/value_bridge.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/planner/value_bridge.c",
+      "-o",
+      "src/planner/value_bridge.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/planner/value_bridge.o"
+  },
+  {
+    "file": "src/executor/bpm_heap.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/bpm_heap.c",
+      "-o",
+      "src/executor/bpm_heap.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/bpm_heap.o"
+  },
+  {
+    "file": "src/executor/delete_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/delete_executor.c",
+      "-o",
+      "src/executor/delete_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/delete_executor.o"
+  },
+  {
+    "file": "src/executor/execution_engine.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/execution_engine.c",
+      "-o",
+      "src/executor/execution_engine.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/execution_engine.o"
+  },
+  {
+    "file": "src/executor/executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/executor.c",
+      "-o",
+      "src/executor/executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/executor.o"
+  },
+  {
+    "file": "src/executor/expr_evaluator.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/expr_evaluator.c",
+      "-o",
+      "src/executor/expr_evaluator.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/expr_evaluator.o"
+  },
+  {
+    "file": "src/executor/filter_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/filter_executor.c",
+      "-o",
+      "src/executor/filter_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/filter_executor.o"
+  },
+  {
+    "file": "src/executor/hash_agg_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/hash_agg_executor.c",
+      "-o",
+      "src/executor/hash_agg_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/hash_agg_executor.o"
+  },
+  {
+    "file": "src/executor/insert_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/insert_executor.c",
+      "-o",
+      "src/executor/insert_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/insert_executor.o"
+  },
+  {
+    "file": "src/executor/limit_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/limit_executor.c",
+      "-o",
+      "src/executor/limit_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/limit_executor.o"
+  },
+  {
+    "file": "src/executor/nl_join_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/nl_join_executor.c",
+      "-o",
+      "src/executor/nl_join_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/nl_join_executor.o"
+  },
+  {
+    "file": "src/executor/project_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/project_executor.c",
+      "-o",
+      "src/executor/project_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/project_executor.o"
+  },
+  {
+    "file": "src/executor/seq_scan_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/seq_scan_executor.c",
+      "-o",
+      "src/executor/seq_scan_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/seq_scan_executor.o"
+  },
+  {
+    "file": "src/executor/sort_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/sort_executor.c",
+      "-o",
+      "src/executor/sort_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/sort_executor.o"
+  },
+  {
+    "file": "src/executor/update_executor.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/executor/update_executor.c",
+      "-o",
+      "src/executor/update_executor.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/executor/update_executor.o"
+  },
+  {
+    "file": "src/transaction/deadlock_detector.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/transaction/deadlock_detector.c",
+      "-o",
+      "src/transaction/deadlock_detector.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/transaction/deadlock_detector.o"
+  },
+  {
+    "file": "src/transaction/lock_manager.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/transaction/lock_manager.c",
+      "-o",
+      "src/transaction/lock_manager.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/transaction/lock_manager.o"
+  },
+  {
+    "file": "src/transaction/recovery_manager.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/transaction/recovery_manager.c",
+      "-o",
+      "src/transaction/recovery_manager.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/transaction/recovery_manager.o"
+  },
+  {
+    "file": "src/transaction/transaction.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/transaction/transaction.c",
+      "-o",
+      "src/transaction/transaction.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/transaction/transaction.o"
+  },
+  {
+    "file": "src/transaction/txn_manager.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/transaction/txn_manager.c",
+      "-o",
+      "src/transaction/txn_manager.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/transaction/txn_manager.o"
+  },
+  {
+    "file": "src/transaction/wal_manager.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-I.",
+      "-Ithird_party/xtest",
+      "-c",
+      "src/transaction/wal_manager.c",
+      "-o",
+      "src/transaction/wal_manager.o"
+    ],
+    "directory": "/home/yang/c_sqlite",
+    "output": "src/transaction/wal_manager.o"
+  }
+]

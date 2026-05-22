@@ -224,6 +224,19 @@ int catalog_drop_table(catalog_t* cat, const char* name) {
 }
 
 /* ========================================================================
+ * catalog_update_root_page
+ * ======================================================================== */
+
+int catalog_update_root_page(catalog_t* cat, table_id_t table_id, page_id_t root_page_id) {
+    table_meta_t* meta = (table_meta_t*)hashmap_get(&cat->table_cache,
+                                                      (void*)(uintptr_t)table_id);
+    if (!meta)
+        return DB_UNKNOWN_TABLE;
+    meta->root_page_id = root_page_id;
+    return DB_OK;
+}
+
+/* ========================================================================
  * catalog_get_schema
  * ======================================================================== */
 

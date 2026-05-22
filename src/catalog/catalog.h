@@ -61,6 +61,10 @@ int  catalog_get_table(catalog_t* cat, const char* name, table_meta_t* out);
  * Returns DB_OK on success, DB_UNKNOWN_TABLE if not found. */
 int  catalog_drop_table(catalog_t* cat, const char* name);
 
+/* Update a table's root_page_id in the catalog cache.
+ * Returns DB_OK on success, DB_UNKNOWN_TABLE if not found. */
+int  catalog_update_root_page(catalog_t* cat, table_id_t table_id, page_id_t root_page_id);
+
 /* Look up a table's schema by its table_id. On success, copies the schema
  * into *out and returns DB_OK. Caller must call schema_destroy on *out when done.
  * Returns DB_UNKNOWN_TABLE if not found. */
